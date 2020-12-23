@@ -1,17 +1,20 @@
-# to_do_list
+# toDoList
 
 A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+After learning the basics of flutter with firebase as backend , I' m <br>
+on may to build "toDoList" in which users can store their notes with full assurance of securioty as it includes Authorisation (login/sigup) at the first place. Lets see how many weeks will take me to develop what's in my mind right now. Peace !
 
-A few resources to get you started if this is your first Flutter project:
+## So far :
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### UI for Sign In & Sign Up is Done
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# toDoList
+# SIGN IN
+![](lib/snapshots/sign_in.png/)
+
+# SIGN UP
+![](lib/snapshots/sign_up.png/)
+
+
