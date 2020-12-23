@@ -11,10 +11,10 @@ on may to build "toDoList" in which users can store their notes with full assura
 
 ### UI for Sign In & Sign Up is Done
 
-# SIGN IN
-![](lib/snapshots/sign_in.png/)
 
 # SIGN UP
 ![](lib/snapshots/sign_up.png/)
 
+# SIGN IN
+![](lib/snapshots/sign_in.png/)
 
