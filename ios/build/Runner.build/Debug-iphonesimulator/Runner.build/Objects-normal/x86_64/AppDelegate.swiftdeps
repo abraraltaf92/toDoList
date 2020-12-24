@@ -250,7 +250,6 @@ depends-external:
 - "/Users/abraraltaflone/code/app_dev/toDoList/ios/Runner/GeneratedPluginRegistrant.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap"
 - "/Users/abraraltaflone/code/app_dev/toDoList/ios/Pods/Firebase/CoreOnly/Sources/module.modulemap"
-- "/Users/abraraltaflone/code/app_dev/brew_crew/ios/Pods/Firebase/CoreOnly/Sources/module.modulemap"
 - "/Users/abraraltaflone/code/app_dev/toDoList/ios/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
 - "/Users/abraraltaflone/code/app_dev/toDoList/ios/Flutter/Flutter.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
