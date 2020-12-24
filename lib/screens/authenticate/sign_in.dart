@@ -81,6 +81,7 @@ class _SignInState extends State<SignIn> {
                             TextStyle(fontSize: 20, color: Color(0xFFB7AD63)),
                         validator: (val) =>
                             val.length < 6 ? 'Enter a password 6+ chars' : null,
+                        obscureText: true,
                         onChanged: (val) {
                           setState(() {
                             return pass = val;
