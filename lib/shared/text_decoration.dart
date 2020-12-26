@@ -10,4 +10,5 @@ const textInputDecoration = InputDecoration(
     focusedBorder: UnderlineInputBorder(
       borderSide: BorderSide(color: Color(0xFF0e0e96), width: 2),
     ),
-    hintStyle: TextStyle(fontSize: 20, color: Color(0xFFCCCCCC)));
+    hintStyle: TextStyle(fontSize: 20, color: Color(0xFFCCCCCC)),
+    labelStyle: TextStyle(color: Color(0xFFB7AD63)));
