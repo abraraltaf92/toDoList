@@ -1,5 +1,4 @@
-# toDoList
-
+# toDoList (CURRENT STATUS : PAUSED ! WORKING ON A DIFFERENT PROJECT)
 A new Flutter project.
 
 ## Getting Started
