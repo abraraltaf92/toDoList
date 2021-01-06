@@ -1,4 +1,6 @@
+import 'package:firebase/firebase.dart';
 import 'package:flutter/material.dart';
+import 'package:google_sign_in/google_sign_in.dart';
 import 'package:to_do_list/shared/text_decoration.dart';
 import 'package:sizer/sizer.dart';
 import 'package:to_do_list/services/auth.dart';
@@ -12,12 +14,13 @@ class Register extends StatefulWidget {
 
 class _RegisterState extends State<Register> {
   final AuthService _auth = AuthService();
+  final GoogleSignIn _googlgeService = GoogleSignIn();
   final _formKey = GlobalKey<FormState>();
   String name = '';
   String email = '';
   String password = '';
   String error = '';
-
+  User user;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -206,7 +209,10 @@ class _RegisterState extends State<Register> {
                       scale: 2.5,
                       child: IconButton(
                           icon: Image.asset('lib/assets/google_icon.png'),
-                          onPressed: null),
+                          onPressed: () async {
+                            dynamic user = await _auth.signInWithGoogle();
+                            print(user.uid);
+                          }),
                     ),
                     Transform.scale(
                       scale: 2.1,

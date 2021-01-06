@@ -1,5 +1,0 @@
-version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
-options: "e9289a96f3e5dd042d59071f71c20bbc"
-build_time: [1608838969, 186209000]
-inputs:
-  "/Users/abraraltaflone/code/app_dev/toDoList/ios/Runner/AppDelegate.swift": !dirty [1608837146, 651740672]
